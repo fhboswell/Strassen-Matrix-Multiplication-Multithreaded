@@ -218,6 +218,7 @@
 		946093031F38C6D400051118 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-pthread";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
